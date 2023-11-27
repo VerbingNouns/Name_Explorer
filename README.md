@@ -29,6 +29,7 @@ APA:
 ```Ackerman, Lauren. (2023). Name Explorer App (v0.1) [Shiny Web App].
 Available: https://lmackerman.shinyapps.io/Names_Explorer_App/```
 
+
 BibTeX:
 
 ```@misc{ackerman_name_2023,
