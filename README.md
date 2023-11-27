@@ -2,7 +2,7 @@
 
 **Name Explorer** is a Shiny app for exploring "gender" of names over time.
 
-###Purpose
+### Purpose
 
 This website comes from a project which aims to provide a dataset and tools for building informed linguistics example sentences and stimuli.
 
