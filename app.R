@@ -37,7 +37,7 @@ ui <- fluidPage(
                  p("For example, the Name Explorer can help to:"),
                  tags$ul(
                    tags$li("select gender-fair names, informed by participant age range"),
-                   tags$li("find and select racially/ethnically representative names"),
+                   tags$li("find and select racially/ethnically/culturally representative names"),
                    tags$li("generate age-appropriate lists of gender-balanced (unisex) names"),
                    tags$li("identify names perceived to be (more) 'nonbinary' or 'binary'"),
                    tags$li("identify names perceived to be (more) 'young' or 'old' (relative to participants' age)"),
@@ -45,20 +45,24 @@ ui <- fluidPage(
                    tags$li("gather this information by region and by age, as these stereotypes can vary ",
                            "internationally and generationally")
                    ),
-                h3("Citation and Thanks"),
-                p("If you use this tool for anything else, such as creative works, naming characters, naming babies, renaming yourself, ",
-                  "or anything else, please drop me a line to let me know at ", 
-                  tags$a(href="mailto:lauren.ackerman@newcastle.ac.uk?subject=Name Explorer App",
-                         "lauren.ackerman@newcastle.ac.uk")
-                ),
-                p("If you use this tool in your research, please cite it as:"),
-                p("APA: ",
-                  tags$pre("Ackerman, Lauren. (2023). Name Explorer App (v0.1) [Shiny Web App].\nAvailable: https://lmackerman.shinyapps.io/Names_Explorer_App/"
-                      )
-                  ),
-                p("BibTeX: ",
-                  pre("@misc{ackerman_name_2023,\ntitle = {{Name Explorer App} (v0.1)},\nurl = {https://lmackerman.shinyapps.io/Names_Explorer_App/},\nauthor = {Ackerman, Lauren},\nyear = {2023},\n}")
-                )
+                 p("Development of Name Explorer is ongoing, and (with luck) many more features and resources should be rolled out in the coming months and years."),
+                 h3("Instructions"),
+                 p("Each tab (right now, only \"Trends in Gender over Time\") contains a tool for exploring and ", 
+                   "navigating the data compiled from a large number of sources."),
+                 h3("How to cite"),
+                 p("If you use this tool for anything else, such as creative works, naming characters, naming babies, renaming yourself, ",
+                   "or anything else, please drop me a line to let me know at ", 
+                   tags$a(href="mailto:lauren.ackerman@newcastle.ac.uk?subject=Name Explorer App",
+                          "lauren.ackerman@newcastle.ac.uk")
+                 ),
+                 p("If you use this tool in your research, please cite it as:"),
+                 p("APA: ",
+                   tags$pre("Ackerman, Lauren. (2023). Name Explorer App (v0.1) [Shiny Web App].\nAvailable: https://lmackerman.shinyapps.io/Names_Explorer_App/"
+                       )
+                   ),
+                 p("BibTeX: ",
+                   pre("@misc{ackerman_name_2023,\ntitle = {{Name Explorer App} (v0.1)},\nurl = {https://lmackerman.shinyapps.io/Names_Explorer_App/},\nauthor = {Ackerman, Lauren},\nyear = {2023},\n}")
+                 )
                ),
                mainPanel(width = 12,
                          img(src="https://www.staff.ncl.ac.uk/linglab/files/2023/11/%E2%80%8Ebanner-bg.png", 
@@ -170,7 +174,11 @@ ui <- fluidPage(
                     options = NULL)
         )
       )
-    )
+    ),
+    ##### REFERENCES ####
+    tabPanel("References", 
+             h3("Data sources")),
+    
   )
 )
 
