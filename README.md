@@ -16,7 +16,7 @@ For example, the Name Explorer can help to:
 - identify names marked for other stereotypes (e.g. race, country of origin, socio-economic class)
 - gather this information by region and by age, as these stereotypes can vary internationally and generationally
 
-### Citation and Thanks
+### How to cite
 
 If you use this tool for anything else, such as creative works, naming characters, naming 
 babies, renaming yourself, or anything else, please drop me a line to let me know at 
