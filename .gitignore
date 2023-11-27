@@ -1,3 +1,7 @@
+# Detritus
+.DS_Store
+names_combined.csv
+
 # History files
 .Rhistory
 .Rapp.history
