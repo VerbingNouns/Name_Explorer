@@ -26,15 +26,19 @@ If you use this tool in your research, please cite it as:
 
 APA:
 
-```Ackerman, Lauren. (2023). Name Explorer App (v0.1) [Shiny Web App].
-Available: https://lmackerman.shinyapps.io/Names_Explorer_App/```
+```
+Ackerman, Lauren. (2023). Name Explorer App (v0.1) [Shiny Web App].
+Available: https://lmackerman.shinyapps.io/Names_Explorer_App/
+```
 
 
 BibTeX:
 
-```@misc{ackerman_name_2023,
+```
+@misc{ackerman_name_2023,
 title = {{Name Explorer App} (v0.1)},
 url = {https://lmackerman.shinyapps.io/Names_Explorer_App/},
 author = {Ackerman, Lauren},
 year = {2023},
-}```
+}
+```
