@@ -20,7 +20,7 @@ For example, the Name Explorer can help to:
 
 If you use this tool for anything else, such as creative works, naming characters, naming 
 babies, renaming yourself, or anything else, please drop me a line to let me know at 
-[lauren.ackerman@newcastle.ac.uk](mailto:lauren.ackerman@newcastle.ac.uk?subject=Name Explorer App)
+[lauren.ackerman@newcastle.ac.uk](mailto:lauren.ackerman@newcastle.ac.uk?subject=Name_Explorer_App)
 
 If you use this tool in your research, please cite it as:
 
