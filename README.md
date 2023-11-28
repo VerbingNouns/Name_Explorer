@@ -1,6 +1,6 @@
 # Name Explorer
 
-**Name Explorer** is a Shiny app for exploring "gender" of names over time.
+[**Name Explorer**](https://lmackerman.shinyapps.io/Names_Explorer_App/) is a Shiny app for exploring "gender" of names over time.
 
 ### Purpose
 
